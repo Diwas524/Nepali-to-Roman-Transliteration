@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+nep_to_rom/__init__.py
+nep_to_rom/app.py
+nepali_to_roman.egg-info/PKG-INFO
+nepali_to_roman.egg-info/SOURCES.txt
+nepali_to_roman.egg-info/dependency_links.txt
+nepali_to_roman.egg-info/top_level.txt
