@@ -1,4 +1,4 @@
-[![Downloads](https://pepy.tech/badge/nepali-to-roman)](https://pepy.tech/project/nepali-to-roman)
+[![Downloads](https://static.pepy.tech/personalized-badge/nepali-to-roman?period=month&units=international_system&left_color=black&right_color=orange&left_text=Downloads)](https://pepy.tech/project/nepali-to-roman)
 
 ## Package to convert Nepali text to romanized English.
 While working with many Nepali documents, we encountered lots of data of Nepali names which includes names, surname, address and number
