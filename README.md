@@ -1,11 +1,14 @@
 ## nepali-to-roman
 ## Package to convert Nepali text to romanized English.
-While working with many Nepali documents, we encountered lots of data of Nepali names which includes names, surname, address and number
+
+[![Downloads](https://pepy.tech/badge/nepali-to-roman)](https://pepy.tech/project/nepali-to-roman) 
+
+While working with many Nepali documents, we encountered lots of data of Nepali names which includes names, surname, address and numbers.
 Extracting the data was not a easy task but working with its romanize transliteration was hard.
 
 Many different packages are created for transliteration but they were not quite accurate.
 
-This package contains large amount of Nepali litral and words which are mapped to its respective romanized literal and word.
+This package contains large amount of Nepali literals and words which are mapped to its respective romanized literal and word.
 
 But that was not the challenging part, still it was not giving the accurate result for instance
 "नेपाल" was showing Nepala as the "ल" is mapped as "la".
@@ -23,25 +26,25 @@ pip install nepali-to-roman
 
 ## Usage
 
-Import the `nep_to_rom` module using the following command.
+Import the `ntr` module using the following command.
 ```python
-import nep_to_rom as nr
+import ntr 
 ```
-The `nep_to_rom` module has one function: nep_to_roman
+The `ntr` module has one function: nep_to_rom
 
 **Detail description**:
-In text, it does not work with paragraphs as it combines it. Beside, that it work with every character.
+Every words of a sentences are broken down into list and are transliterated individually which are later merged into single string.
 
 Syntax:
 ```python
->>> nr.nep_to_roman(text)
+>>> ntr.nep_to_rom(text)
 ```
 
 Example:
 ```python
->>> import nep_to_rom as nr
->>> print(nr.nep_to_roman("काठमाडौँ"))
-Output: Kathmandu
+>>> import ntr
+>>> print(ntr.nep_to_rom("म नेपाल मा बस्छु ।"))
+Output: ma nepal ma baschhu .
 
 
 ```
@@ -56,5 +59,3 @@ feedback of any sort are highly welcome.
 ['Diwas Pandey'](https://www.diwaspandey.com.np) 
 </br>
 ['Ishparsh Uprety](https://www.ishparshuprety.com.np/)
-
-# Nepali-to-Roman-Transliteration
